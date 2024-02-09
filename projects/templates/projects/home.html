@@ -1,0 +1,58 @@
+{% load static %}
+
+<div class="container-fluid px-5 py-5" id="home">
+    <div class="row">
+        <div class="col-4 px-auto text-center" id="profile-pic">
+            <img id="profile-img" src="{% static 'projects/profile-pic.jpg' %}">
+        </div>
+        <div class="col-6 text-dark px-auto " id="about-me-block">
+            <h2>Hello!</h2>
+            <h1>
+                I am Christian Keaunui, a Computer Scientist based in Seattle, Washington
+            </h1>
+        </div>
+    </div>
+
+    {% include 'projects/projects.html' %}
+
+    <div class="container-fluid">
+        <div class="col">
+            <h2>
+                Languages and Skills
+            </h2>
+            <p>Python, sql, </p>
+        </div>
+    </div>
+    
+    
+
+    <div class="container-fluid">
+        <div class="col">
+            <h2>
+                Contact Me
+            </h2>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col">
+            <h2>Nice to meet you!</h2>
+            <p>My name is Christian Keaunui and I am a computer Scientist from Seattle, Washington.  I graduated from Occidental College in May of 2023 with a degree in Computer Science</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    #home {
+        min-height: 550px;
+    }
+
+    #profile-img {
+        max-width: 20vw;
+        max-height: 40vh;
+
+    }
+
+
+   
+</style>

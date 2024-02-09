@@ -1,0 +1,54 @@
+<div class="navbar">
+    <h1>Christian Keaunui</h1>
+    
+    <div class="links">
+        <a href="#about-me">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<style>
+    .navbar {
+        height: 70px;
+        background-color: var(--background-color);
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        align-items: right;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        z-index: 9;
+        border-bottom: 1px solid var(--text-color);
+    }
+
+
+    .navbar * {
+        flex-wrap: nowrap;
+        vertical-align: auto;
+        position: relative;
+        white-space: nowrap;
+        padding: 0px 10px;
+        text-decoration: none;
+        margin-top: 0px;
+        color: var(--text-color);
+    }
+
+    .navbar a {
+        font-size: 20px;
+        top: 33%;
+    }
+
+    .navbar h1 {
+        margin-left: 75px;
+        top: 20%;
+    }
+
+    .links a:hover {
+        color: var(--highlight-color-2);
+    }
+
+
+</style>
